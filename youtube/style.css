@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-size: 25px;
+}
+.navbar {
+  display: inline;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+}
+.logo,
+.search,
+.account {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.youtube {
+  height: 30px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar input {
+  width: 500px;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 25px 0px 0px 25px;
+  padding: 0px 30px;
+  height: 41px;
+}
+.searchbar i {
+  border: 1px solid gray;
+  border-radius: 0px 25px 25px 0px;
+  padding: 8px 30px;
+  background-color: #f0e8e8;
+}
+.creat-icon {
+  height: 32px;
+  width: 32px;
+}
+.acc-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.sidebar {
+  position: fixed;
+  display: flex;
+  /* flex-direction: row; */
+}
+.liftside {
+  display: flex;
+  flex-direction: row;
+}
